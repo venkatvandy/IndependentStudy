@@ -1,0 +1,538 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALL	Makefile	/^ALL		:= $(APPS)$/;"	m
+APPS	Makefile	/^APPS		:= sfnt-pingpong sfnt-stream$/;"	m
+CL1	sfnt-pingpong.c	51;"	d	file:
+CL1	sfnt-stream.c	51;"	d	file:
+CL1D	sfnt-pingpong.c	61;"	d	file:
+CL1D	sfnt-stream.c	61;"	d	file:
+CL1F	sfnt-pingpong.c	53;"	d	file:
+CL1F	sfnt-stream.c	53;"	d	file:
+CL1I	sfnt-pingpong.c	55;"	d	file:
+CL1I	sfnt-stream.c	55;"	d	file:
+CL1S	sfnt-pingpong.c	59;"	d	file:
+CL1S	sfnt-stream.c	59;"	d	file:
+CL1U	sfnt-pingpong.c	57;"	d	file:
+CL1U	sfnt-stream.c	57;"	d	file:
+CL2	sfnt-pingpong.c	52;"	d	file:
+CL2	sfnt-stream.c	52;"	d	file:
+CL2D	sfnt-pingpong.c	62;"	d	file:
+CL2D	sfnt-stream.c	62;"	d	file:
+CL2F	sfnt-pingpong.c	54;"	d	file:
+CL2F	sfnt-stream.c	54;"	d	file:
+CL2I	sfnt-pingpong.c	56;"	d	file:
+CL2I	sfnt-stream.c	56;"	d	file:
+CL2S	sfnt-pingpong.c	60;"	d	file:
+CL2S	sfnt-stream.c	60;"	d	file:
+CL2U	sfnt-pingpong.c	58;"	d	file:
+CL2U	sfnt-stream.c	58;"	d	file:
+CRXC_EXIT	sfnt-stream.c	/^  CRXC_EXIT$/;"	e	enum:client_rx_cmd	file:
+CRXC_GO	sfnt-stream.c	/^  CRXC_GO,$/;"	e	enum:client_rx_cmd	file:
+CRXC_NEW	sfnt-stream.c	/^  CRXC_NEW,$/;"	e	enum:client_rx_cmd	file:
+CRXC_WAIT	sfnt-stream.c	/^  CRXC_WAIT,$/;"	e	enum:client_rx_cmd	file:
+DEFAULT	Makefile	/^DEFAULT		:= $(APPS)$/;"	m
+DEFAULT_MSG_SIZE	sfnt-stream.c	20;"	d	file:
+FDTF_LOCAL	sfnt-pingpong.c	/^  FDTF_LOCAL  = 0x200,$/;"	e	enum:fd_type_flags	file:
+FDTF_LOCAL	sfnt-stream.c	/^  FDTF_LOCAL  = 0x200,$/;"	e	enum:fd_type_flags	file:
+FDTF_SOCKET	sfnt-pingpong.c	/^  FDTF_SOCKET = 0x100,$/;"	e	enum:fd_type_flags	file:
+FDTF_SOCKET	sfnt-stream.c	/^  FDTF_SOCKET = 0x100,$/;"	e	enum:fd_type_flags	file:
+FDTF_STREAM	sfnt-pingpong.c	/^  FDTF_STREAM = 0x400,$/;"	e	enum:fd_type_flags	file:
+FDTF_STREAM	sfnt-stream.c	/^  FDTF_STREAM = 0x400,$/;"	e	enum:fd_type_flags	file:
+FDT_PIPE	sfnt-pingpong.c	/^  FDT_PIPE    = 2 | 0           | FDTF_LOCAL | FDTF_STREAM,$/;"	e	enum:fd_type	file:
+FDT_PIPE	sfnt-stream.c	/^  FDT_PIPE    = 2 | 0           | FDTF_LOCAL | FDTF_STREAM,$/;"	e	enum:fd_type	file:
+FDT_TCP	sfnt-pingpong.c	/^  FDT_TCP     = 0 | FDTF_SOCKET | 0          | FDTF_STREAM,$/;"	e	enum:fd_type	file:
+FDT_TCP	sfnt-stream.c	/^  FDT_TCP     = 0 | FDTF_SOCKET | 0          | FDTF_STREAM,$/;"	e	enum:fd_type	file:
+FDT_UDP	sfnt-pingpong.c	/^  FDT_UDP     = 1 | FDTF_SOCKET | 0          | 0,$/;"	e	enum:fd_type	file:
+FDT_UDP	sfnt-stream.c	/^  FDT_UDP     = 1 | FDTF_SOCKET | 0          | 0,$/;"	e	enum:fd_type	file:
+FDT_UNIX_D	sfnt-pingpong.c	/^  FDT_UNIX_D  = 4 | FDTF_SOCKET | FDTF_LOCAL | 0,$/;"	e	enum:fd_type	file:
+FDT_UNIX_D	sfnt-stream.c	/^  FDT_UNIX_D  = 4 | FDTF_SOCKET | FDTF_LOCAL | 0,$/;"	e	enum:fd_type	file:
+FDT_UNIX_S	sfnt-pingpong.c	/^  FDT_UNIX_S  = 3 | FDTF_SOCKET | FDTF_LOCAL | FDTF_STREAM,$/;"	e	enum:fd_type	file:
+FDT_UNIX_S	sfnt-stream.c	/^  FDT_UNIX_S  = 3 | FDTF_SOCKET | FDTF_LOCAL | FDTF_STREAM,$/;"	e	enum:fd_type	file:
+LIBS	Makefile	/^LIBS := -L. -lsfnettest -lm $/;"	m
+MAX_FDS	sfnt-pingpong.c	128;"	d	file:
+MAX_FDS	sfnt-stream.c	240;"	d	file:
+MD5SUM	Makefile	/^MD5SUM := digest -a md5$/;"	m
+MD5SUM	Makefile	/^MD5SUM := md5$/;"	m
+MD5SUM	Makefile	/^MD5SUM := md5sum$/;"	m
+MF_RESET	sfnt-stream.c	/^  MF_RESET     = 0x02,      \/* server should reset seq and stats *\/$/;"	e	enum:msg_flags	file:
+MF_SAVE	sfnt-stream.c	/^  MF_SAVE      = 0x04,      \/* client rx thread should save result *\/$/;"	e	enum:msg_flags	file:
+MF_STOP	sfnt-stream.c	/^  MF_STOP      = 0x10,      \/* client rx thread should stop *\/$/;"	e	enum:msg_flags	file:
+MF_SYNC	sfnt-stream.c	/^  MF_SYNC      = 0x08,      \/* client rx thread should ding cond var *\/$/;"	e	enum:msg_flags	file:
+MF_TIMESTAMP	sfnt-stream.c	/^  MF_TIMESTAMP = 0x01,      \/* server should add timestamp *\/$/;"	e	enum:msg_flags	file:
+NETTEST_SRCS	Makefile	/^NETTEST_SRCS	:= sfnt_sysinfo	\\$/;"	m
+NT_ASSERT	sfnettest.h	152;"	d
+NT_ASSERTi3	sfnettest.h	153;"	d
+NT_HAVE_EPOLL	sfnettest_unix.h	54;"	d
+NT_HAVE_EPOLL	sfnettest_unix.h	56;"	d
+NT_HAVE_EPOLL	sfnettest_win32.h	18;"	d
+NT_HAVE_FIONBIO	sfnettest_unix.h	78;"	d
+NT_HAVE_FIONBIO	sfnettest_unix.h	80;"	d
+NT_HAVE_IP_MREQN	sfnettest_unix.h	70;"	d
+NT_HAVE_IP_MREQN	sfnettest_unix.h	72;"	d
+NT_HAVE_POLL	sfnettest_unix.h	52;"	d
+NT_HAVE_POLL	sfnettest_win32.h	17;"	d
+NT_HAVE_SO_BINDTODEVICE	sfnettest_unix.h	62;"	d
+NT_HAVE_SO_BINDTODEVICE	sfnettest_unix.h	64;"	d
+NT_LE32	sfnettest.h	349;"	d
+NT_LE64	sfnettest.h	350;"	d
+NT_LITTLE_ENDIAN	sfnettest_unix.h	92;"	d
+NT_LITTLE_ENDIAN	sfnettest_unix.h	94;"	d
+NT_LITTLE_ENDIAN	sfnettest_unix.h	97;"	d
+NT_LITTLE_ENDIAN	sfnettest_unix.h	99;"	d
+NT_MUX_SPIN	sfnettest.h	/^  NT_MUX_SPIN     = 0x1,$/;"	e	enum:sfnt_mux_flags
+NT_PRINTF_LIKE	sfnettest_unix.h	86;"	d
+NT_PRINTF_LIKE	sfnettest_unix.h	88;"	d
+NT_PRINTF_LIKE	sfnettest_win32.h	21;"	d
+NT_SUPPORTS_ONLOAD	sfnettest_unix.h	47;"	d
+NT_SUPPORTS_ONLOAD	sfnettest_unix.h	49;"	d
+NT_SUPPORTS_ONLOAD	sfnettest_win32.h	15;"	d
+NT_TEST	sfnettest.h	155;"	d
+NT_TESTi3	sfnettest.h	156;"	d
+NT_TRY	sfnettest.h	158;"	d
+NT_TRY2	sfnettest.h	170;"	d
+NT_TRY3	sfnettest.h	181;"	d
+N_CFG_OPTS	sfnt-pingpong.c	99;"	d	file:
+N_CFG_OPTS	sfnt-stream.c	95;"	d	file:
+N_STD_OPTS	sfnt_cmd_line.c	37;"	d	file:
+OS_FREEBSD	Makefile	/^OS_FREEBSD := 1$/;"	m
+OS_LINUX	Makefile	/^OS_LINUX := 1$/;"	m
+OS_MACOSX	Makefile	/^OS_MACOSX := 1$/;"	m
+OS_SUNOS	Makefile	/^OS_SUNOS := 1$/;"	m
+PT_CHK	sfnt-stream.c	237;"	d	file:
+SFNT_CLA	sfnettest.h	73;"	d
+SFNT_CLA2	sfnettest.h	76;"	d
+SFNT_CLAF_FILL	sfnettest.h	/^  SFNT_CLAF_FILL    = 0x1,      \/* duplicate vals to end of array *\/$/;"	e	enum:sfnt_cla_flag
+SFNT_CLAS	sfnettest.h	79;"	d
+SFNT_CLAT_FLAG	sfnettest.h	/^  SFNT_CLAT_FLAG,$/;"	e	enum:sfnt_cla_type
+SFNT_CLAT_FLOAT	sfnettest.h	/^  SFNT_CLAT_FLOAT,$/;"	e	enum:sfnt_cla_type
+SFNT_CLAT_FN	sfnettest.h	/^  SFNT_CLAT_FN,$/;"	e	enum:sfnt_cla_type
+SFNT_CLAT_INT	sfnettest.h	/^  SFNT_CLAT_INT,$/;"	e	enum:sfnt_cla_type
+SFNT_CLAT_INT64	sfnettest.h	/^  SFNT_CLAT_INT64,$/;"	e	enum:sfnt_cla_type
+SFNT_CLAT_IRANGE	sfnettest.h	/^  SFNT_CLAT_IRANGE,$/;"	e	enum:sfnt_cla_type
+SFNT_CLAT_STR	sfnettest.h	/^  SFNT_CLAT_STR,$/;"	e	enum:sfnt_cla_type
+SFNT_CLAT_UINT	sfnettest.h	/^  SFNT_CLAT_UINT,$/;"	e	enum:sfnt_cla_type
+SFNT_CLAT_UINT64	sfnettest.h	/^  SFNT_CLAT_UINT64,$/;"	e	enum:sfnt_cla_type
+SFNT_CLAT_USAGE	sfnettest.h	/^  SFNT_CLAT_USAGE,$/;"	e	enum:sfnt_cla_type
+SFNT_RELEASE_CSUM	version.mk	/^SFNT_RELEASE_CSUM := 8dc3b027d85b28bedf9fd731362e4968$/;"	m
+SFNT_SRC_CSUM	Makefile	/^SFNT_SRC_CSUM	:= $(shell find . -name '*.[ch]' | LC_ALL=C sort | \\$/;"	m
+SFNT_VERSION	Makefile	/^SFNT_VERSION	:= $(SFNT_VERSION)-modified$/;"	m
+SFNT_VERSION	Makefile	/^SFNT_VERSION	:= $(shell hg id --id 2>\/dev\/null || echo no-version)$/;"	m
+SFNT_VERSION	version.mk	/^SFNT_VERSION := 1.5.0$/;"	m
+SOL_IP	sfnettest_unix.h	106;"	d
+SOL_IP	sfnettest_win32.h	25;"	d
+SOL_TCP	sfnettest_unix.h	109;"	d
+_GNU_SOURCE	sfnettest_waitall_hack.h	15;"	d
+_GNU_SOURCE	sfnt_affinity.c	12;"	d	file:
+__NETTEST_GCC_H__	sfnettest_gcc.h	13;"	d
+__NT_TEST	sfnettest.h	129;"	d
+__NT_TESTi3	sfnettest.h	138;"	d
+__SFNETTEST_H__	sfnettest.h	13;"	d
+__SFNETTEST_UNIX_H__	sfnettest_unix.h	13;"	d
+__SFNETTEST_WAITALL_HACK_H__	sfnettest_waitall_hack.h	13;"	d
+__SFNETTEST_WIN32_H__	sfnettest_win32.h	13;"	d
+__nt_recv	sfnettest_win32.h	/^static __inline ssize_t __nt_recv(int fd, void* buf, size_t len, int flags)$/;"	f
+add_fds	sfnt-pingpong.c	/^static void add_fds(int us)$/;"	f	file:
+add_fds	sfnt-stream.c	/^static void add_fds(int us)$/;"	f	file:
+addrinfo	sfnt-stream.c	/^  struct addrinfo* addrinfo;$/;"	m	struct:server_per_client	typeref:struct:server_per_client::addrinfo	file:
+alloc_len	sfnettest.h	/^  int  alloc_len;$/;"	m	struct:sfnt_ilist
+bad_cla	sfnt_cmd_line.c	/^static void bad_cla(const char* context, const char* cla, const char* msg)$/;"	f	file:
+c_timestamp	sfnt-stream.c	/^  uint64_t  c_timestamp;$/;"	m	struct:msg_reply	file:
+cfg_affinity	sfnt-pingpong.c	/^static const char* cfg_affinity[2];$/;"	v	file:
+cfg_affinity	sfnt-stream.c	/^static const char* cfg_affinity[2];$/;"	v	file:
+cfg_bind	sfnt-pingpong.c	/^static const char* cfg_bind[2];$/;"	v	file:
+cfg_bindtodev	sfnt-pingpong.c	/^static const char* cfg_bindtodev[2];$/;"	v	file:
+cfg_bindtodev	sfnt-stream.c	/^static const char* cfg_bindtodev[2];$/;"	v	file:
+cfg_connect	sfnt-pingpong.c	/^static int         cfg_connect[2];$/;"	v	file:
+cfg_connect	sfnt-stream.c	/^static int         cfg_connect[2];$/;"	v	file:
+cfg_forkboth	sfnt-pingpong.c	/^static int         cfg_forkboth;$/;"	v	file:
+cfg_max_burst	sfnt-stream.c	/^static int         cfg_max_burst = 100;$/;"	v	file:
+cfg_maxiter	sfnt-pingpong.c	/^static int         cfg_maxiter = 1000000;$/;"	v	file:
+cfg_maxms	sfnt-pingpong.c	/^static int         cfg_maxms = 3000;$/;"	v	file:
+cfg_maxmsg	sfnt-pingpong.c	/^static int         cfg_maxmsg;$/;"	v	file:
+cfg_mcast	sfnt-pingpong.c	/^static const char* cfg_mcast;$/;"	v	file:
+cfg_mcast	sfnt-stream.c	/^static const char* cfg_mcast;$/;"	v	file:
+cfg_mcast_intf	sfnt-pingpong.c	/^static const char* cfg_mcast_intf[2];$/;"	v	file:
+cfg_mcast_intf	sfnt-stream.c	/^static const char* cfg_mcast_intf[2];$/;"	v	file:
+cfg_mcast_loop	sfnt-pingpong.c	/^static int         cfg_mcast_loop[2];$/;"	v	file:
+cfg_mcast_loop	sfnt-stream.c	/^static int         cfg_mcast_loop;$/;"	v	file:
+cfg_mcast_sleep	sfnt-pingpong.c	/^static unsigned    cfg_mcast_sleep = 2;$/;"	v	file:
+cfg_millisec	sfnt-stream.c	/^static int         cfg_millisec = 2000;$/;"	v	file:
+cfg_miniter	sfnt-pingpong.c	/^static int         cfg_miniter = 1000;$/;"	v	file:
+cfg_minms	sfnt-pingpong.c	/^static int         cfg_minms = 1000;$/;"	v	file:
+cfg_minmsg	sfnt-pingpong.c	/^static int         cfg_minmsg;$/;"	v	file:
+cfg_msg_size	sfnt-stream.c	/^static int         cfg_msg_size = DEFAULT_MSG_SIZE;$/;"	v	file:
+cfg_muxer	sfnt-pingpong.c	/^static const char* cfg_muxer[2];$/;"	v	file:
+cfg_muxer	sfnt-stream.c	/^static const char* cfg_muxer[2];$/;"	v	file:
+cfg_n_pings	sfnt-pingpong.c	/^static int         cfg_n_pings = 1;$/;"	v	file:
+cfg_n_pipe	sfnt-pingpong.c	/^static unsigned    cfg_n_pipe[2];$/;"	v	file:
+cfg_n_pipe	sfnt-stream.c	/^static unsigned    cfg_n_pipe[2];$/;"	v	file:
+cfg_n_pongs	sfnt-pingpong.c	/^static int         cfg_n_pongs = 1;$/;"	v	file:
+cfg_n_tcpc	sfnt-pingpong.c	/^static unsigned    cfg_n_tcpc[2];$/;"	v	file:
+cfg_n_tcpc	sfnt-stream.c	/^static unsigned    cfg_n_tcpc[2];$/;"	v	file:
+cfg_n_tcpl	sfnt-pingpong.c	/^static unsigned    cfg_n_tcpl[2];$/;"	v	file:
+cfg_n_tcpl	sfnt-stream.c	/^static unsigned    cfg_n_tcpl[2];$/;"	v	file:
+cfg_n_udp	sfnt-pingpong.c	/^static unsigned    cfg_n_udp[2];$/;"	v	file:
+cfg_n_udp	sfnt-stream.c	/^static unsigned    cfg_n_udp[2];$/;"	v	file:
+cfg_n_unixd	sfnt-pingpong.c	/^static unsigned    cfg_n_unixd[2];$/;"	v	file:
+cfg_n_unixd	sfnt-stream.c	/^static unsigned    cfg_n_unixd[2];$/;"	v	file:
+cfg_n_unixs	sfnt-pingpong.c	/^static unsigned    cfg_n_unixs[2];$/;"	v	file:
+cfg_n_unixs	sfnt-stream.c	/^static unsigned    cfg_n_unixs[2];$/;"	v	file:
+cfg_nodelay	sfnt-pingpong.c	/^static int         cfg_nodelay[2];$/;"	v	file:
+cfg_nodelay	sfnt-stream.c	/^static int         cfg_nodelay;$/;"	v	file:
+cfg_opts	sfnt-pingpong.c	/^static struct sfnt_cmd_line_opt cfg_opts[] = {$/;"	v	typeref:struct:sfnt_cmd_line_opt	file:
+cfg_opts	sfnt-stream.c	/^static struct sfnt_cmd_line_opt cfg_opts[] = {$/;"	v	typeref:struct:sfnt_cmd_line_opt	file:
+cfg_percentile	sfnt-pingpong.c	/^static float       cfg_percentile = 99;$/;"	v	file:
+cfg_percentile	sfnt-stream.c	/^static float       cfg_percentile = 99;$/;"	v	file:
+cfg_port	sfnt-pingpong.c	/^static int         cfg_port = 2048;$/;"	v	file:
+cfg_port	sfnt-stream.c	/^static int         cfg_port = 2049;$/;"	v	file:
+cfg_rates	sfnt-stream.c	/^static const char* cfg_rates = "50000-100000000+50000";$/;"	v	file:
+cfg_raw	sfnt-pingpong.c	/^static const char* cfg_raw;$/;"	v	file:
+cfg_raw	sfnt-stream.c	/^static const char* cfg_raw;$/;"	v	file:
+cfg_rtt	sfnt-pingpong.c	/^static int         cfg_rtt;$/;"	v	file:
+cfg_rtt	sfnt-stream.c	/^static int         cfg_rtt;$/;"	v	file:
+cfg_rtt_iter	sfnt-stream.c	/^static unsigned    cfg_rtt_iter = 10000;$/;"	v	file:
+cfg_samples	sfnt-stream.c	/^static int         cfg_samples;$/;"	v	file:
+cfg_sizes	sfnt-pingpong.c	/^static const char* cfg_sizes;$/;"	v	file:
+cfg_spin	sfnt-pingpong.c	/^static int         cfg_spin[2];$/;"	v	file:
+cfg_spin	sfnt-stream.c	/^static int         cfg_spin[2];$/;"	v	file:
+cfg_stop	sfnt-stream.c	/^static int         cfg_stop = 90;$/;"	v	file:
+cfg_tcpc_serv	sfnt-pingpong.c	/^static const char* cfg_tcpc_serv;$/;"	v	file:
+cfg_tcpc_serv	sfnt-stream.c	/^static const char* cfg_tcpc_serv;$/;"	v	file:
+cfg_timeout	sfnt-pingpong.c	/^static unsigned    cfg_timeout;$/;"	v	file:
+cfg_ttl	sfnt-pingpong.c	/^static int         cfg_ttl[2] = { 1, 1 };$/;"	v	file:
+cfg_ttl	sfnt-stream.c	/^static int         cfg_ttl[2] = { 1, 1 };$/;"	v	file:
+chomp_arg	sfnt_cmd_line.c	/^static void chomp_arg(int* argc, char* argv[], int n)$/;"	f	file:
+cla_get_val	sfnt_cmd_line.c	/^static void cla_get_val(const char* context, const char* opt_name,$/;"	f	file:
+client_check_ver	sfnt-pingpong.c	/^static void client_check_ver(int ss)$/;"	f	file:
+client_check_ver	sfnt-stream.c	/^static void client_check_ver(int ss)$/;"	f	file:
+client_do_test	sfnt-stream.c	/^static void client_do_test(struct client_tx* ctx)$/;"	f	file:
+client_measure_rtt	sfnt-stream.c	/^static void client_measure_rtt(struct client_tx* ctx, struct stats* stats)$/;"	f	file:
+client_rx	sfnt-stream.c	/^struct client_rx {$/;"	s	file:
+client_rx_cmd	sfnt-stream.c	/^enum client_rx_cmd {$/;"	g	file:
+client_rx_cmd_set	sfnt-stream.c	/^static void client_rx_cmd_set(struct client_rx* crx,$/;"	f	file:
+client_rx_core_i	sfnt-stream.c	/^static int            client_rx_core_i;$/;"	v	file:
+client_rx_go	sfnt-stream.c	/^static void client_rx_go(struct client_rx* crx)$/;"	f	file:
+client_rx_rec	sfnt-stream.c	/^struct client_rx_rec {$/;"	s	file:
+client_rx_state_wait_change	sfnt-stream.c	/^static void client_rx_state_wait_change(struct client_rx* crx,$/;"	f	file:
+client_rx_thread	sfnt-stream.c	/^static void* client_rx_thread(void* arg)$/;"	f	file:
+client_rx_thread_start	sfnt-stream.c	/^static struct client_rx* client_rx_thread_start(void)$/;"	f	file:
+client_rx_wait_sync	sfnt-stream.c	/^static int client_rx_wait_sync(struct client_rx* crx, uint32_t seq,$/;"	f	file:
+client_send_opts	sfnt-pingpong.c	/^static void client_send_opts(int ss)$/;"	f	file:
+client_send_opts	sfnt-stream.c	/^static void client_send_opts(int ss)$/;"	f	file:
+client_send_sync	sfnt-stream.c	/^static void client_send_sync(struct client_tx* ctx, enum msg_flags flags)$/;"	f	file:
+client_start	sfnt-stream.c	/^static void client_start(struct client_tx* ctx, int warmup_n, int msg_len)$/;"	f	file:
+client_stop	sfnt-stream.c	/^static void client_stop(struct client_tx* ctx)$/;"	f	file:
+client_sync	sfnt-stream.c	/^static int client_sync(struct client_tx* ctx, enum msg_flags flags,$/;"	f	file:
+client_tx	sfnt-stream.c	/^struct client_tx {$/;"	s	file:
+client_warmup	sfnt-stream.c	/^static void client_warmup(struct client_tx* ctx, int n_warmups)$/;"	f	file:
+clients	sfnt-stream.c	/^  struct server_per_client clients[1];$/;"	m	struct:server	typeref:struct:server::server_per_client	file:
+cmd	sfnt-stream.c	/^  enum client_rx_cmd    cmd;$/;"	m	struct:client_rx	typeref:enum:client_rx::client_rx_cmd	file:
+cmd_line_opts	sfnt_cmd_line.c	/^static const struct sfnt_cmd_line_opt* cmd_line_opts;$/;"	v	typeref:struct:sfnt_cmd_line_opt	file:
+cmd_line_opts_n	sfnt_cmd_line.c	/^static int                             cmd_line_opts_n;$/;"	v	file:
+cond	sfnt-stream.c	/^  pthread_cond_t        cond;$/;"	m	struct:client_rx	file:
+cpu_affinity_set	sfnt-stream.c	/^static void cpu_affinity_set(int core_i)$/;"	f	file:
+crx	sfnt-stream.c	/^  struct client_rx*     crx;$/;"	m	struct:client_tx	typeref:struct:client_tx::client_rx	file:
+do_client	sfnt-pingpong.c	/^static int do_client(int argc, char* argv[])$/;"	f	file:
+do_client	sfnt-stream.c	/^static int do_client(int argc, char* argv[])$/;"	f	file:
+do_client2	sfnt-pingpong.c	/^static int do_client2(int ss, const char* hostport, int local)$/;"	f	file:
+do_client2	sfnt-stream.c	/^static int do_client2(int ss, const char* hostport, int local)$/;"	f	file:
+do_client3	sfnt-stream.c	/^static int do_client3(struct client_tx* ctx)$/;"	f	file:
+do_init	sfnt-pingpong.c	/^static void do_init(void)$/;"	f	file:
+do_init	sfnt-stream.c	/^static void do_init(void)$/;"	f	file:
+do_ping	sfnt-pingpong.c	/^static void do_ping(int read_fd, int write_fd, int sz)$/;"	f	file:
+do_pings	sfnt-pingpong.c	/^static void do_pings(int ss, int read_fd, int write_fd, int msg_size,$/;"	f	file:
+do_pong	sfnt-pingpong.c	/^static void do_pong(int read_fd, int write_fd, int sz)$/;"	f	file:
+do_recv	sfnt-pingpong.c	/^static ssize_t (*do_recv)(int, void*, size_t, int);$/;"	v	file:
+do_recv	sfnt-stream.c	/^static ssize_t (*do_recv)(int, void*, size_t, int);$/;"	v	file:
+do_send	sfnt-pingpong.c	/^static ssize_t (*do_send)(int, const void*, size_t, int);$/;"	v	file:
+do_send	sfnt-stream.c	/^static ssize_t (*do_send)(int, const void*, size_t, int);$/;"	v	file:
+do_server	sfnt-pingpong.c	/^static int do_server(void)$/;"	f	file:
+do_server	sfnt-stream.c	/^static int do_server(void)$/;"	f	file:
+do_server2	sfnt-pingpong.c	/^static int do_server2(int ss)$/;"	f	file:
+do_server2	sfnt-stream.c	/^static int do_server2(int ss)$/;"	f	file:
+do_server3	sfnt-stream.c	/^static int do_server3(struct server* server)$/;"	f	file:
+do_test	sfnt-pingpong.c	/^static void do_test(int ss, int read_fd, int write_fd,$/;"	f	file:
+end_seq	sfnt-stream.c	/^  uint32_t              end_seq;$/;"	m	struct:client_tx	file:
+epoll_add	sfnt-pingpong.c	/^static void epoll_add(int fd)$/;"	f	file:
+epoll_add	sfnt-stream.c	/^static void epoll_add(int fd)$/;"	f	file:
+epoll_adddel_recv	sfnt-pingpong.c	/^static ssize_t epoll_adddel_recv(int fd, void* buf, size_t len, int flags)$/;"	f	file:
+epoll_adddel_recv	sfnt-stream.c	/^static ssize_t epoll_adddel_recv(int fd, void* buf, size_t len, int flags)$/;"	f	file:
+epoll_fd	sfnt-pingpong.c	/^static int                 epoll_fd;$/;"	v	file:
+epoll_fd	sfnt-stream.c	/^static int                 epoll_fd;$/;"	v	file:
+epoll_init	sfnt-pingpong.c	/^static void epoll_init(void)$/;"	f	file:
+epoll_init	sfnt-stream.c	/^static void epoll_init(void)$/;"	f	file:
+epoll_mod_recv	sfnt-pingpong.c	/^static ssize_t epoll_mod_recv(int fd, void* buf, size_t len, int flags)$/;"	f	file:
+epoll_mod_recv	sfnt-stream.c	/^static ssize_t epoll_mod_recv(int fd, void* buf, size_t len, int flags)$/;"	f	file:
+epoll_recv	sfnt-pingpong.c	/^static ssize_t epoll_recv(int fd, void* buf, size_t len, int flags)$/;"	f	file:
+epoll_recv	sfnt-stream.c	/^static ssize_t epoll_recv(int fd, void* buf, size_t len, int flags)$/;"	f	file:
+fd_type	sfnt-pingpong.c	/^enum fd_type {$/;"	g	file:
+fd_type	sfnt-pingpong.c	/^static enum fd_type   fd_type;$/;"	v	typeref:enum:fd_type	file:
+fd_type	sfnt-stream.c	/^enum fd_type {$/;"	g	file:
+fd_type	sfnt-stream.c	/^static enum fd_type   fd_type;$/;"	v	typeref:enum:fd_type	file:
+fd_type_flags	sfnt-pingpong.c	/^enum fd_type_flags {$/;"	g	file:
+fd_type_flags	sfnt-stream.c	/^enum fd_type_flags {$/;"	g	file:
+find_cfg_desc	sfnt_cmd_line.c	/^static const struct sfnt_cmd_line_opt* find_cfg_desc(const char* opt,$/;"	f	file:
+flags	sfnettest.h	/^  enum sfnt_cla_flag flags;$/;"	m	struct:sfnt_cmd_line_opt	typeref:enum:sfnt_cmd_line_opt::sfnt_cla_flag
+flags	sfnt-stream.c	/^  uint8_t   flags;$/;"	m	struct:msg	file:
+flags	sfnt-stream.c	/^  uint8_t   flags;$/;"	m	struct:msg_reply	file:
+fn	sfnettest.h	/^  void             (*fn)(const char*, const struct sfnt_cmd_line_opt*);$/;"	m	struct:sfnt_cmd_line_opt
+gap_stats	sfnt-stream.c	/^  struct gap_stats gap_stats;$/;"	m	struct:msg_reply	typeref:struct:msg_reply::gap_stats	file:
+gap_stats	sfnt-stream.c	/^  struct gap_stats gap_stats;$/;"	m	struct:server_per_client	typeref:struct:server_per_client::gap_stats	file:
+gap_stats	sfnt-stream.c	/^struct gap_stats {$/;"	s	file:
+get_recv_size	sfnt-stream.c	/^static int get_recv_size(struct server* server)$/;"	f	file:
+get_stats	sfnt-pingpong.c	/^static void get_stats(struct stats* s, int* results, int results_n)$/;"	f	file:
+get_stats	sfnt-stream.c	/^static void get_stats(struct stats* s, int* results, int results_n)$/;"	f	file:
+hz	sfnettest.h	/^  uint64_t  hz;$/;"	m	struct:sfnt_tsc_params
+len	sfnettest.h	/^  int  len;$/;"	m	struct:sfnt_ilist
+list	sfnettest.h	/^  int* list;$/;"	m	struct:sfnt_ilist
+lock	sfnt-stream.c	/^  pthread_mutex_t       lock;$/;"	m	struct:client_rx	file:
+log2_le	sfnt-pingpong.c	/^static unsigned log2_le(unsigned n)$/;"	f	file:
+long_name	sfnettest.h	/^  const char*        long_name;$/;"	m	struct:sfnt_cmd_line_opt
+main	sfnt-pingpong.c	/^int main(int argc, char* argv[])$/;"	f
+main	sfnt-stream.c	/^int main(int argc, char* argv[])$/;"	f
+max	sfnt-pingpong.c	/^  int max;$/;"	m	struct:stats	file:
+max	sfnt-stream.c	/^  int max;$/;"	m	struct:stats	file:
+mean	sfnt-pingpong.c	/^  int mean;$/;"	m	struct:stats	file:
+mean	sfnt-stream.c	/^  int mean;$/;"	m	struct:stats	file:
+measure_hz	sfnt_tsc.c	/^static uint64_t measure_hz(int interval_usec)$/;"	f	file:
+measure_tsc	sfnt_tsc.c	/^static uint64_t measure_tsc(void)$/;"	f	file:
+median	sfnt-pingpong.c	/^  int median;$/;"	m	struct:stats	file:
+median	sfnt-stream.c	/^  int median;$/;"	m	struct:stats	file:
+min	sfnt-pingpong.c	/^  int min;$/;"	m	struct:stats	file:
+min	sfnt-stream.c	/^  int min;$/;"	m	struct:stats	file:
+msg	sfnt-stream.c	/^  struct msg*           msg;$/;"	m	struct:client_tx	typeref:struct:client_tx::msg	file:
+msg	sfnt-stream.c	/^struct msg {$/;"	s	file:
+msg_flags	sfnt-stream.c	/^enum msg_flags {$/;"	g	file:
+msg_len	sfnt-stream.c	/^  int                   msg_len;$/;"	m	struct:client_tx	file:
+msg_per_sec_rx	sfnt-stream.c	/^  int                   msg_per_sec_rx;$/;"	m	struct:client_tx	file:
+msg_per_sec_target	sfnt-stream.c	/^  int                   msg_per_sec_target;$/;"	m	struct:client_tx	file:
+msg_per_sec_tx	sfnt-stream.c	/^  int                   msg_per_sec_tx;$/;"	m	struct:client_tx	file:
+msg_reply	sfnt-stream.c	/^struct msg_reply {$/;"	s	file:
+mux_add	sfnt-pingpong.c	/^static void (*mux_add)(int fd);$/;"	v	file:
+mux_add	sfnt-stream.c	/^static void (*mux_add)(int fd);$/;"	v	file:
+mux_recv	sfnt-pingpong.c	/^static ssize_t (*mux_recv)(int, void*, size_t, int);$/;"	v	file:
+mux_recv	sfnt-stream.c	/^static ssize_t (*mux_recv)(int, void*, size_t, int);$/;"	v	file:
+my_sa	sfnt-pingpong.c	/^static struct sockaddr_in  my_sa;$/;"	v	typeref:struct:sockaddr_in	file:
+n_clients	sfnt-stream.c	/^  int       n_clients;$/;"	m	struct:server	file:
+n_fall_behinds	sfnt-stream.c	/^  int                   n_fall_behinds;$/;"	m	struct:client_tx	file:
+n_gaps	sfnt-stream.c	/^  uint32_t  n_gaps;$/;"	m	struct:gap_stats	file:
+n_msgs_dropped	sfnt-stream.c	/^  uint64_t  n_msgs_dropped;$/;"	m	struct:gap_stats	file:
+n_ooo	sfnt-stream.c	/^  uint32_t  n_ooo;$/;"	m	struct:gap_stats	file:
+n_rx	sfnt-stream.c	/^  volatile int          n_rx;$/;"	m	struct:client_rx	file:
+next_msg_size	sfnt-pingpong.c	/^static int next_msg_size(int prev_msg_size)$/;"	f	file:
+next_seq	sfnt-stream.c	/^  uint32_t              next_seq;$/;"	m	struct:client_tx	file:
+noop_add	sfnt-pingpong.c	/^static void noop_add(int fd)$/;"	f	file:
+noop_add	sfnt-stream.c	/^static void noop_add(int fd)$/;"	f	file:
+num	sfnettest.h	/^  int                num;  \/* number of values in array *\/$/;"	m	struct:sfnt_cmd_line_opt
+parse_cfg_opt	sfnt_cmd_line.c	/^static int parse_cfg_opt(int argc, char** argv, const char* context)$/;"	f	file:
+parse_cfg_string	sfnt_cmd_line.c	/^static void parse_cfg_string(char* s)$/;"	f	file:
+peer_sa	sfnt-pingpong.c	/^static struct sockaddr_in  peer_sa;$/;"	v	typeref:struct:sockaddr_in	file:
+percentile	sfnt-pingpong.c	/^  int percentile;$/;"	m	struct:stats	file:
+percentile	sfnt-stream.c	/^  int percentile;$/;"	m	struct:stats	file:
+pfds	sfnt-pingpong.c	/^static struct pollfd       pfds[MAX_FDS];$/;"	v	typeref:struct:pollfd	file:
+pfds	sfnt-stream.c	/^static struct pollfd       pfds[MAX_FDS];$/;"	v	typeref:struct:pollfd	file:
+pfds_n	sfnt-pingpong.c	/^static int                 pfds_n;$/;"	v	file:
+pfds_n	sfnt-stream.c	/^static int                 pfds_n;$/;"	v	file:
+poll_add	sfnt-pingpong.c	/^static void poll_add(int fd)$/;"	f	file:
+poll_add	sfnt-stream.c	/^static void poll_add(int fd)$/;"	f	file:
+poll_recv	sfnt-pingpong.c	/^static ssize_t poll_recv(int fd, void* buf, size_t len, int flags)$/;"	f	file:
+poll_recv	sfnt-stream.c	/^static ssize_t poll_recv(int fd, void* buf, size_t len, int flags)$/;"	f	file:
+port	sfnt-stream.c	/^  int                   port;$/;"	m	struct:client_rx	file:
+ppbuf	sfnt-pingpong.c	/^static char           ppbuf[64 * 1024];$/;"	v	file:
+ppbuf	sfnt-stream.c	/^static char           ppbuf[64 * 1024];$/;"	v	file:
+rates	sfnt-stream.c	/^  struct sfnt_ilist     rates;$/;"	m	struct:client_tx	typeref:struct:client_tx::sfnt_ilist	file:
+read_fd	sfnt-stream.c	/^  int                   read_fd;$/;"	m	struct:client_tx	file:
+read_fd	sfnt-stream.c	/^  int       read_fd;$/;"	m	struct:server	file:
+rec_latency_ns	sfnt-stream.c	/^int64_t rec_latency_ns(struct client_tx* ctx, struct client_rx_rec* r)$/;"	f
+rec_target_send_ts	sfnt-stream.c	/^uint64_t rec_target_send_ts(struct client_tx* ctx, struct client_rx_rec* r)$/;"	f
+recs	sfnt-stream.c	/^  struct client_rx_rec* recs;$/;"	m	struct:client_rx	typeref:struct:client_rx::client_rx_rec	file:
+recs_max	sfnt-stream.c	/^  int                   recs_max;$/;"	m	struct:client_rx	file:
+recs_n	sfnt-stream.c	/^  int                   recs_n;$/;"	m	struct:client_rx	file:
+recv	sfnettest_waitall_hack.h	32;"	d
+recv	sfnettest_waitall_hack.h	33;"	d
+recv	sfnettest_win32.h	37;"	d
+recv_size	sfnt-stream.c	/^  int       recv_size;$/;"	m	struct:server	file:
+recvfrom	sfnettest_waitall_hack.h	50;"	d
+recvfrom	sfnettest_waitall_hack.h	51;"	d
+recvmsg	sfnettest_waitall_hack.h	68;"	d
+recvmsg	sfnettest_waitall_hack.h	69;"	d
+reply	sfnt-stream.c	/^  struct msg_reply*     reply;$/;"	m	struct:client_rx	typeref:struct:client_rx::msg_reply	file:
+reply_buf_len	sfnt-stream.c	/^  int                   reply_buf_len;$/;"	m	struct:client_rx	file:
+reply_every	sfnt-stream.c	/^  int                   reply_every;$/;"	m	struct:client_tx	file:
+reply_seq	sfnt-stream.c	/^  uint8_t   reply_seq;$/;"	m	struct:msg	file:
+reply_seq	sfnt-stream.c	/^  uint8_t   reply_seq;$/;"	m	struct:msg_reply	file:
+reply_seq	sfnt-stream.c	/^  uint8_t   reply_seq;$/;"	m	struct:server_per_client	file:
+ret_lat_stats	sfnt-stream.c	/^  struct stats          ret_lat_stats;$/;"	m	struct:client_tx	typeref:struct:client_tx::stats	file:
+rfn_read	sfnt-pingpong.c	/^static ssize_t rfn_read(int fd, void* buf, size_t len, int flags)$/;"	f	file:
+rfn_read	sfnt-stream.c	/^static ssize_t rfn_read(int fd, void* buf, size_t len, int flags)$/;"	f	file:
+rfn_recv	sfnt-pingpong.c	170;"	d	file:
+rfn_recv	sfnt-stream.c	282;"	d	file:
+s_timestamp	sfnt-stream.c	/^  uint64_t  s_timestamp;$/;"	m	struct:msg_reply	file:
+select_add	sfnt-pingpong.c	/^static void select_add(int fd)$/;"	f	file:
+select_add	sfnt-stream.c	/^static void select_add(int fd)$/;"	f	file:
+select_fds	sfnt-pingpong.c	/^static int            select_fds[MAX_FDS];$/;"	v	file:
+select_fds	sfnt-stream.c	/^static int            select_fds[MAX_FDS];$/;"	v	file:
+select_fdset	sfnt-pingpong.c	/^static fd_set         select_fdset;$/;"	v	file:
+select_fdset	sfnt-stream.c	/^static fd_set         select_fdset;$/;"	v	file:
+select_init	sfnt-pingpong.c	/^static void select_init(void)$/;"	f	file:
+select_init	sfnt-stream.c	/^static void select_init(void)$/;"	f	file:
+select_max_fd	sfnt-pingpong.c	/^static int            select_max_fd;$/;"	v	file:
+select_max_fd	sfnt-stream.c	/^static int            select_max_fd;$/;"	v	file:
+select_n_fds	sfnt-pingpong.c	/^static int            select_n_fds;$/;"	v	file:
+select_n_fds	sfnt-stream.c	/^static int            select_n_fds;$/;"	v	file:
+select_recv	sfnt-pingpong.c	/^static ssize_t select_recv(int fd, void* buf, size_t len, int flags)$/;"	f	file:
+select_recv	sfnt-stream.c	/^static ssize_t select_recv(int fd, void* buf, size_t len, int flags)$/;"	f	file:
+send_lateness	sfnt-stream.c	/^  uint32_t  send_lateness;$/;"	m	struct:client_rx_rec	file:
+send_lateness	sfnt-stream.c	/^  uint32_t  send_lateness;$/;"	m	struct:msg	file:
+send_lateness	sfnt-stream.c	/^  uint32_t  send_lateness;$/;"	m	struct:msg_reply	file:
+seq	sfnt-stream.c	/^  uint32_t  seq;$/;"	m	struct:client_rx_rec	file:
+seq	sfnt-stream.c	/^  uint32_t  seq;$/;"	m	struct:msg	file:
+seq	sfnt-stream.c	/^  uint32_t  seq;$/;"	m	struct:msg_reply	file:
+seq_expected	sfnt-stream.c	/^  uint32_t  seq_expected;$/;"	m	struct:server_per_client	file:
+server	sfnt-stream.c	/^struct server {$/;"	s	file:
+server_check_ver	sfnt-pingpong.c	/^static void server_check_ver(int ss)$/;"	f	file:
+server_check_ver	sfnt-stream.c	/^static void server_check_ver(int ss)$/;"	f	file:
+server_ld_preload	sfnt-stream.c	/^  char*                 server_ld_preload;$/;"	m	struct:client_tx	file:
+server_per_client	sfnt-stream.c	/^struct server_per_client {$/;"	s	file:
+server_recv_opts	sfnt-pingpong.c	/^static void server_recv_opts(int ss)$/;"	f	file:
+server_recv_opts	sfnt-stream.c	/^static void server_recv_opts(int ss)$/;"	f	file:
+set_sock_timeouts	sfnt-pingpong.c	/^static void set_sock_timeouts(int sock)$/;"	f	file:
+set_ttl	sfnt-pingpong.c	/^static void set_ttl(int sock, int ttl)$/;"	f	file:
+set_ttl	sfnt-stream.c	/^static void set_ttl(int sock, int ttl)$/;"	f	file:
+sfn_send	sfnt-pingpong.c	179;"	d	file:
+sfn_send	sfnt-stream.c	291;"	d	file:
+sfn_sendto	sfnt-pingpong.c	/^static ssize_t sfn_sendto(int fd, const void* buf, size_t len, int flags)$/;"	f	file:
+sfn_sendto	sfnt-stream.c	/^static ssize_t sfn_sendto(int fd, const void* buf, size_t len, int flags)$/;"	f	file:
+sfn_write	sfnt-pingpong.c	/^static ssize_t sfn_write(int fd, const void* buf, size_t len, int flags)$/;"	f	file:
+sfn_write	sfnt-stream.c	/^static ssize_t sfn_write(int fd, const void* buf, size_t len, int flags)$/;"	f	file:
+sfnt_abort	sfnt_test.c	/^void sfnt_abort(void)$/;"	f
+sfnt_app_getopt	sfnt_cmd_line.c	/^void sfnt_app_getopt(const char* usage, int* argc, char* argv[],$/;"	f
+sfnt_app_name	sfnt_cmd_line.c	/^const char* sfnt_app_name;$/;"	v
+sfnt_app_startup	sfnt_cmd_line.c	/^static void sfnt_app_startup(int argc, char* argv[])$/;"	f	file:
+sfnt_bind	sfnt_socket.c	/^int sfnt_bind(int sock, const char* host_or_hostport,$/;"	f
+sfnt_bind_port	sfnt_socket.c	/^int sfnt_bind_port(int sock, int port)$/;"	f
+sfnt_cla_flag	sfnettest.h	/^enum sfnt_cla_flag {$/;"	g
+sfnt_cla_type	sfnettest.h	/^enum sfnt_cla_type {$/;"	g
+sfnt_cmd_line	sfnt_cmd_line.c	/^char*       sfnt_cmd_line;$/;"	v
+sfnt_cmd_line_opt	sfnettest.h	/^struct sfnt_cmd_line_opt {$/;"	s
+sfnt_connect	sfnt_socket.c	/^int sfnt_connect(int sock, const char* host_or_hostport,$/;"	f
+sfnt_cpu_affinity_set	sfnt_affinity.c	/^int sfnt_cpu_affinity_set(int core_i)$/;"	f
+sfnt_dump_env_with_prefix	sfnt_sysinfo.c	/^static void sfnt_dump_env_with_prefix(FILE* f, const char* pf,$/;"	f	file:
+sfnt_dump_sys_info	sfnt_sysinfo.c	/^void sfnt_dump_sys_info(const struct sfnt_tsc_params* tsc_opt)$/;"	f
+sfnt_dump_ver_info	sfnt_sysinfo.c	/^void sfnt_dump_ver_info(FILE* f, const char* pf)$/;"	f
+sfnt_epoll_wait	sfnt_mux.c	/^int sfnt_epoll_wait(int epfd, struct epoll_event* events, int maxevents,$/;"	f
+sfnt_err	sfnt_logging.c	/^void sfnt_err(const char* fmt, ...)$/;"	f
+sfnt_fail_setup	sfnt_test.c	/^void sfnt_fail_setup(void)$/;"	f
+sfnt_fail_test	sfnt_test.c	/^void sfnt_fail_test(void)$/;"	f
+sfnt_fail_usage	sfnt_cmd_line.c	/^void sfnt_fail_usage(const char* fmt, ...)$/;"	f
+sfnt_fd_set_blocking	sfnt_fd.c	/^int sfnt_fd_set_blocking(int fd)$/;"	f
+sfnt_fd_set_nonblocking	sfnt_fd.c	/^int sfnt_fd_set_nonblocking(int fd)$/;"	f
+sfnt_flog	sfnt_logging.c	/^void sfnt_flog(FILE* file, const char* fmt, ...)$/;"	f
+sfnt_get_port	sfnt_socket.c	/^int sfnt_get_port(int sock)$/;"	f
+sfnt_getaddrinfo	sfnt_socket.c	/^int sfnt_getaddrinfo(const char* host, const char* port, int port_i,$/;"	f
+sfnt_iarray_mean_and_limits	sfnt_stats.c	/^void sfnt_iarray_mean_and_limits(const int* start, const int* end,$/;"	f
+sfnt_iarray_variance	sfnt_stats.c	/^void sfnt_iarray_variance(const int* start, const int* end,$/;"	f
+sfnt_ilist	sfnettest.h	/^struct sfnt_ilist {$/;"	s
+sfnt_ilist_append	sfnt_int_list.c	/^void sfnt_ilist_append(struct sfnt_ilist* ilist, int i)$/;"	f
+sfnt_ilist_init	sfnt_int_list.c	/^void sfnt_ilist_init(struct sfnt_ilist* ilist)$/;"	f
+sfnt_ilist_parse	sfnt_int_list.c	/^int sfnt_ilist_parse(struct sfnt_ilist* ilist, const char* int_list_str)$/;"	f
+sfnt_int32_ge	sfnettest.h	363;"	d
+sfnt_int32_gt	sfnettest.h	361;"	d
+sfnt_int32_le	sfnettest.h	362;"	d
+sfnt_int32_lt	sfnettest.h	360;"	d
+sfnt_ip_add_membership	sfnt_socket.c	/^int sfnt_ip_add_membership(int sock, in_addr_t mcast_addr, const char* intf)$/;"	f
+sfnt_ip_multicast_if	sfnt_socket.c	/^int sfnt_ip_multicast_if(int sock, const char* intf)$/;"	f
+sfnt_msec_tsc	sfnt_tsc.c	/^int64_t sfnt_msec_tsc(const struct sfnt_tsc_params* params, int64_t msecs)$/;"	f
+sfnt_mux_flags	sfnettest.h	/^enum sfnt_mux_flags {$/;"	g
+sfnt_nsec_tsc	sfnt_tsc.c	/^int64_t sfnt_nsec_tsc(const struct sfnt_tsc_params* params, int64_t nsecs)$/;"	f
+sfnt_onload_info_dump	sfnt_sysinfo.c	/^static void sfnt_onload_info_dump(FILE* f, const char* pf)$/;"	f	file:
+sfnt_onload_is_active	sfnt_sysinfo.c	/^static int sfnt_onload_is_active(void)$/;"	f	file:
+sfnt_opt_usage	sfnt_cmd_line.c	/^void sfnt_opt_usage(FILE* f, const struct sfnt_cmd_line_opt* opts, int n_opts)$/;"	f
+sfnt_out	sfnt_logging.c	/^void sfnt_out(const char* fmt, ...)$/;"	f
+sfnt_poll	sfnt_mux.c	/^int sfnt_poll(struct pollfd* fds, nfds_t nfds, int timeout_ms,$/;"	f
+sfnt_qsort_compare_int	sfnt_stats.c	/^int sfnt_qsort_compare_int(const void* pa, const void* pb)$/;"	f
+sfnt_quiet	sfnt_cmd_line.c	/^int         sfnt_quiet;$/;"	v
+sfnt_recv_waitall_hack	sfnettest_waitall_hack.h	/^sfnt_recv_waitall_hack(int fd, void* buf, size_t len, int flags)$/;"	f
+sfnt_recvfrom_waitall_hack	sfnettest_waitall_hack.h	/^sfnt_recvfrom_waitall_hack(int fd, void* buf, size_t len, int flags,$/;"	f
+sfnt_select	sfnt_mux.c	/^int sfnt_select(int nfds, fd_set *readfds, fd_set *writefds,$/;"	f
+sfnt_seq_eq	sfnettest.h	365;"	d
+sfnt_seq_ge	sfnettest.h	370;"	d
+sfnt_seq_gt	sfnettest.h	368;"	d
+sfnt_seq_le	sfnettest.h	369;"	d
+sfnt_seq_lt	sfnettest.h	367;"	d
+sfnt_seq_neq	sfnettest.h	366;"	d
+sfnt_so_bindtodevice	sfnt_socket.c	/^int sfnt_so_bindtodevice(int sock, const char* dev_name)$/;"	f
+sfnt_sock_get_int	sfnt_socket.c	/^int sfnt_sock_get_int(int fd)$/;"	f
+sfnt_sock_get_str	sfnt_socket.c	/^char* sfnt_sock_get_str(int fd)$/;"	f
+sfnt_sock_put_int	sfnt_socket.c	/^void sfnt_sock_put_int(int fd, int v)$/;"	f
+sfnt_sock_put_str	sfnt_socket.c	/^void  sfnt_sock_put_str(int fd, const char* str)$/;"	f
+sfnt_sock_set_timeout	sfnt_socket.c	/^int sfnt_sock_set_timeout(int sock, int send_or_recv, int millisec)$/;"	f
+sfnt_tsc	sfnettest_gcc.h	/^static inline void sfnt_tsc(uint64_t* pval) {$/;"	f
+sfnt_tsc	sfnettest_gcc.h	23;"	d
+sfnt_tsc_get_params	sfnt_tsc.c	/^int sfnt_tsc_get_params(struct sfnt_tsc_params* params)$/;"	f
+sfnt_tsc_nsec	sfnt_tsc.c	/^int64_t sfnt_tsc_nsec(const struct sfnt_tsc_params* params, int64_t tsc)$/;"	f
+sfnt_tsc_params	sfnettest.h	/^struct sfnt_tsc_params {$/;"	s
+sfnt_tsc_usec	sfnt_tsc.c	/^int64_t sfnt_tsc_usec(const struct sfnt_tsc_params* params, int64_t tsc)$/;"	f
+sfnt_usage	sfnt_cmd_line.c	/^static void sfnt_usage(FILE* file, const char* fmt, ...)$/;"	f	file:
+sfnt_usage_fn	sfnt_cmd_line.c	/^static void (*sfnt_usage_fn)(FILE*, const char*, va_list)$/;"	v	file:
+sfnt_usage_fn_default	sfnt_cmd_line.c	/^static void sfnt_usage_fn_default(FILE* f, const char* fmt, va_list args)$/;"	f	file:
+sfnt_usec_tsc	sfnt_tsc.c	/^int64_t sfnt_usec_tsc(const struct sfnt_tsc_params* params, int64_t usecs)$/;"	f
+sfnt_verbose	sfnt_cmd_line.c	/^int         sfnt_verbose;$/;"	v
+sfnt_verr	sfnt_logging.c	/^void sfnt_verr(const char* fmt, va_list args)$/;"	f
+sfnt_version	sfnt_cmd_line.c	/^static int  sfnt_version;$/;"	v	file:
+sfnt_vflog	sfnt_logging.c	/^void sfnt_vflog(FILE* file, const char* fmt, va_list args)$/;"	f
+sfnt_vout	sfnt_logging.c	/^void sfnt_vout(const char* fmt, va_list args)$/;"	f
+short_name	sfnettest.h	/^  char               short_name;$/;"	m	struct:sfnt_cmd_line_opt
+sizeof_cla_type	sfnt_cmd_line.c	/^static int sizeof_cla_type(enum sfnt_cla_type type)$/;"	f	file:
+skip_int	sfnt_int_list.c	/^static void skip_int(const char** ps)$/;"	f	file:
+skip_int_range	sfnt_int_list.c	/^static void skip_int_range(const char** ps)$/;"	f	file:
+skip_int_range2	sfnt_int_list.c	/^static void skip_int_range2(const char** ps)$/;"	f	file:
+sock	sfnt-stream.c	/^  int                   sock;$/;"	m	struct:client_rx	file:
+spin_recv	sfnt-pingpong.c	/^static ssize_t spin_recv(int fd, void* buf, size_t len, int flags)$/;"	f	file:
+spin_recv	sfnt-stream.c	/^static ssize_t spin_recv(int fd, void* buf, size_t len, int flags)$/;"	f	file:
+ss	sfnt-stream.c	/^  int                   ss;$/;"	m	struct:client_tx	file:
+ss	sfnt-stream.c	/^  int       ss;$/;"	m	struct:server	file:
+start_seq	sfnt-stream.c	/^  uint32_t              start_seq;$/;"	m	struct:client_tx	file:
+state	sfnt-stream.c	/^  enum client_rx_cmd    state;$/;"	m	struct:client_rx	typeref:enum:client_rx::client_rx_cmd	file:
+stats	sfnt-pingpong.c	/^struct stats {$/;"	s	file:
+stats	sfnt-stream.c	/^struct stats {$/;"	s	file:
+stats_divide	sfnt-stream.c	/^static void stats_divide(struct stats* s, int divisor)$/;"	f	file:
+std_opts	sfnt_cmd_line.c	/^static struct sfnt_cmd_line_opt std_opts[] = {$/;"	v	typeref:struct:sfnt_cmd_line_opt	file:
+stddev	sfnt-pingpong.c	/^  int stddev;$/;"	m	struct:stats	file:
+stddev	sfnt-stream.c	/^  int stddev;$/;"	m	struct:stats	file:
+sync_seq	sfnt-stream.c	/^  uint32_t              sync_seq;$/;"	m	struct:client_rx	file:
+the_fds	sfnt-pingpong.c	/^static int            the_fds[4];  \/* used for pipes and unix sockets *\/$/;"	v	file:
+the_fds	sfnt-stream.c	/^static int            the_fds[4];  \/* used for pipes and unix sockets *\/$/;"	v	file:
+timeout_ms	sfnt-pingpong.c	/^static int                 timeout_ms;$/;"	v	file:
+timeout_ms	sfnt-stream.c	/^static int                 timeout_ms = 100;$/;"	v	file:
+timestamp	sfnt-stream.c	/^  uint64_t  timestamp;$/;"	m	struct:msg	file:
+to_sa	sfnt-pingpong.c	/^static struct sockaddr*    to_sa;$/;"	v	typeref:struct:sockaddr	file:
+to_sa	sfnt-stream.c	/^static struct sockaddr*    to_sa;$/;"	v	typeref:struct:sockaddr	file:
+to_sa_len	sfnt-pingpong.c	/^static socklen_t           to_sa_len;$/;"	v	file:
+to_sa_len	sfnt-stream.c	/^static socklen_t           to_sa_len;$/;"	v	file:
+try_connect	sfnt-pingpong.c	/^static int try_connect(const char* hostport, int default_port)$/;"	f	file:
+try_connect	sfnt-stream.c	/^static int try_connect(const char* hostport, int default_port)$/;"	f	file:
+ts_recv	sfnt-stream.c	/^  uint64_t  ts_recv;$/;"	m	struct:client_rx_rec	file:
+ts_send	sfnt-stream.c	/^  uint64_t  ts_send;$/;"	m	struct:client_rx_rec	file:
+ts_start	sfnt-stream.c	/^  uint64_t              ts_start;$/;"	m	struct:client_tx	file:
+ts_to_dbl	sfnt-stream.c	/^static double ts_to_dbl(struct client_tx* ctx, uint64_t ts)$/;"	f	file:
+tsc	sfnt-pingpong.c	/^static struct sfnt_tsc_params tsc;$/;"	v	typeref:struct:sfnt_tsc_params	file:
+tsc	sfnt-stream.c	/^static struct sfnt_tsc_params tsc;$/;"	v	typeref:struct:sfnt_tsc_params	file:
+tsc_cost	sfnettest.h	/^  uint64_t  tsc_cost;$/;"	m	struct:sfnt_tsc_params
+tx_is_not_keeping_up	sfnt-stream.c	/^static int tx_is_not_keeping_up(struct client_tx* ctx)$/;"	f	file:
+type	sfnettest.h	/^  enum sfnt_cla_type type;$/;"	m	struct:sfnt_cmd_line_opt	typeref:enum:sfnt_cmd_line_opt::sfnt_cla_type
+udp_bind_sock	sfnt-pingpong.c	/^static void udp_bind_sock(int us, int ss)$/;"	f	file:
+udp_exchange_addrs	sfnt-pingpong.c	/^static void udp_exchange_addrs(int us, int ss)$/;"	f	file:
+unused1	sfnt-stream.c	/^  uint16_t  unused1;$/;"	m	struct:msg_reply	file:
+usage	sfnettest.h	/^  const char*        usage;$/;"	m	struct:sfnt_cmd_line_opt
+usage_str	sfnt_cmd_line.c	/^static const char*                     usage_str;$/;"	v	file:
+value	sfnettest.h	/^  void*              value;$/;"	m	struct:sfnt_cmd_line_opt
+write_fd	sfnt-stream.c	/^  int                   write_fd;$/;"	m	struct:client_tx	file:
+write_fd	sfnt-stream.c	/^  int       write_fd;$/;"	m	struct:server	file:
+write_raw_results	sfnt-pingpong.c	/^static void write_raw_results(int msg_size, int* results, int results_n)$/;"	f	file:
+write_raw_results	sfnt-stream.c	/^static void write_raw_results(struct client_tx* ctx)$/;"	f	file:
+write_result_line	sfnt-stream.c	/^static void write_result_line(struct client_tx* ctx)$/;"	f	file:
